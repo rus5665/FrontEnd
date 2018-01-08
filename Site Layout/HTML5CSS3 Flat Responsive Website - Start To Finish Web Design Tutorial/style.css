@@ -213,3 +213,47 @@ aside {
 	background-color: #aadcd2;
 }
 
+#smyley {
+	background-color: #aadcd2;
+	padding: 0 0 1%;
+	clear: both;
+}
+
+/*Start Footer*/
+
+footer {
+	background-color: #6991ac;
+	width: 100%
+}
+
+.social {
+	list-style-type: none;
+	text-align: center;
+}
+
+.social li {
+	display: inline;
+}
+
+.social i {
+	font-size: 460%;
+	margin: 1%;
+	padding: 5% 5% 5% 4%;
+	color: #c3d7df;
+}
+
+.social i:hover {
+	color: #f5f5f5;
+}
+
+.copywrite {
+	border-top: 1px solid #aadcd2;
+	background-color: #544b59;
+	max-height: 55px;
+	margin: 0;
+}
+
+.copywrite p {
+	text-align: center;
+	padding: 5px 0 9px 0;
+}
