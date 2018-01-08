@@ -12,8 +12,8 @@ body {
 	width: 300px;
 	height: 300px;
 	transform-origin: 50% 50% -150px;
-	transform-style: preserve-3d;
-	transform: rotate3d(1,1,1,-70deg);
+	transform-style: preserve-3d; /*Определяет, как дочерние элементы должны отображаться в 3D-пространстве*/
+	transform: rotate3d(1,1,1,-70deg); /*повернуть куб под углом*/
 }
 .side {
 	width: 300px;
@@ -29,9 +29,10 @@ body {
 	text-align: center;
 	text-shadow: 0 1px 3px rgba(0,0,0,.4);
 	box-shadow: 0 0 6px rgba(0,0,0,.5);
-	transform-origin: 50% 50% -150px;
+	transform-origin: 50% 50% -150px; /*находим центр куба 50% по Х, 50% по Y  и -150px по Z*/
+	/*backface-visibility: hidden; скрывает элементы которые расположены обратной стороной к нам*/
 }
-
+/*поворачиваем стороны куба*/
 #side2 {
 	transform: rotateY(90deg);
 }
