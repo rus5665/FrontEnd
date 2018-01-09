@@ -257,3 +257,29 @@ footer {
 	text-align: center;
 	padding: 5px 0 9px 0;
 }
+
+/*---------------MEDIA!--------------*/
+
+@media screen and (max-width: 768){
+	h2 {
+		font-size: 150%;
+	}
+	
+	h3 {
+		font-size: 125%;
+	}
+
+	p {
+		font-size: 120%
+	}
+	
+	header {
+		position: absolute;
+	}
+	
+	#logo {
+		margin: 15px 0 20 25px;
+	}
+
+}
+	
