@@ -177,7 +177,7 @@ aside {
 }
 
 #mobile {
-	background-color: #a2b1c1;
+	background-color: #be89ad;
 }
 
 #desktop {
@@ -330,6 +330,18 @@ footer {
 
 	aside {
 		width: 100%;
+	}
+
+	.hand-mobile {
+		display: none;
+	}
+
+	.one-third {
+		width: 100%;
+	}
+
+	.social i {
+		font-size: 180%;
 	}
 
 }
