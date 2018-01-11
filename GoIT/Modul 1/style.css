@@ -27,9 +27,13 @@ p {
 	font-size: 18px;
 }
 
-.blok_1 {
+.blok_1, .blok_2, .blok_3 {
 	padding: 28px 18px 12px 18px;
 	border-bottom: 1px solid #7b7b7b;
+}
+
+.blok_4 {
+	padding: 28px 18px 12px 18px;
 }
 
 .user_foto {
@@ -37,5 +41,12 @@ p {
 	display:block;
 	margin:0 auto;
 	margin-top: 18px;
+}
 
+ul {
+	margin: 30px 0 0 20px;
+}
+
+.bottom {
+	margin-top: 30px;
 }
